@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat interactivo - Nicol y Lina</title>
+    <link rel="stylesheet" href="./chats1.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Chat en linea</h1>
+    </header>
+    
+    <div class="user-selection">
+        <button class="user-button active" id="linaButton">Lina</button>
+        <button class="user-button" id="nicolButton">Nicol</button>
+    </div>
+    
+    <div class="chat-container">
+        <h2 class="chat-header" id="chatHeader">Chat de Lina...</h2>
+        <div class="chat-messages" id="messageContainer"></div>
+        
+        <form class="chat-input-form" id="messageForm">
+            <input type="text" id="messageInput" class="chat-input" required placeholder="Escribe aquí, Lina...">
+            <button type="submit" class="send-button">Enviar</button>
+        </form>
+        
+        <button id="clearButton" class="clear-chat-button">Limpiar Chat</button>
+    </div>
+    
+    <script src="./chats1.js"></script>
+</body>
+</html>
